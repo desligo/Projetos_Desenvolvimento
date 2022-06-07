@@ -1,0 +1,16 @@
+﻿@page "{restaurantId:int}"
+@model OdeToFood.Pages.Restaurants.DetailModel
+@{
+}
+@if (Model.TempDataMessage != null)
+{
+    <div class="alert alert-success"> @Model.TempDataMessage ! </div>
+    
+}
+<h1>@Model.Restaurant.Name</h1>
+
+<div>Código: @Model.Restaurant.Id</div>
+<div>Localização: @Model.Restaurant.Location</div>
+<div>Culinária: @Model.Restaurant.Cuisine</div>
+
+<a asp-page="./List" class="btn btn-success">Todos Restaurantes</a>
