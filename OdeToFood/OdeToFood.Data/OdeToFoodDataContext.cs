@@ -6,9 +6,9 @@ using System.Text;
 
 namespace OdeToFood.Data
 {
-    public class OdeFoodDataContext : DbContext
+    public class OdeToFoodDataContext : DbContext
     {
-        public OdeFoodDataContext()
+        public OdeToFoodDataContext(DbContextOptions<OdeToFoodDataContext> options): base (options)
         {
 
         }

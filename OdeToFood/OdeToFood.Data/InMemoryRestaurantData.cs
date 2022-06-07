@@ -32,9 +32,19 @@ namespace OdeToFood.Data
             return 0;
         }
 
+        public Restaurant DeleteRestaurant(int id)
+        {
+            var restaurant = GetRestaurantById(id);
+            if (restaurant != null)
+            {
+                restaurants.Remove(restaurant);
+            }
+            return restaurant;
+        }
+
         public Restaurant GetRestaurantById(int id)
         {
-            return restaurants.FirstOrDefault(r=>r.Id == id);
+            return restaurants.FirstOrDefault(r => r.Id == id);
         }
 
         public IEnumerable<Restaurant> GetRestaurantsByName(string name = null)
@@ -44,7 +54,7 @@ namespace OdeToFood.Data
                    orderby r.Id descending
 
                    select r;
-            
+
         }
 
         public Restaurant Update(Restaurant Updaterestaurant)
