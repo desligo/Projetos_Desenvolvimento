@@ -27,6 +27,7 @@
         <td>Tipo de Comida</td>
         <td>Detalhes</td>
         <td>Editar</td>
+        <td>Excluir</td>
     </tr>
     @foreach (var item in Model.Restaurants)
    {
@@ -37,8 +38,19 @@
            <td>@item.Cuisine</td>
            
            <td><a class="btn btn-success" asp-page="./Detail" asp-route-restaurantId="@item.Id"><i>Detalhes</i></a></td>
-           <td><a class="btn btn-success" asp-page="./Edit" asp-route-restaurantId="@item.Id"><i>Editar</i></a></td>
+           <td><a class="btn btn-info" asp-page="./Edit" asp-route-restaurantId="@item.Id"><i>Editar</i></a></td>
+           <td><a class="btn btn-danger" asp-page="./Delete" asp-route-restaurantId="@item.Id"><i>X</i></a></td>
        </tr>
        
    }
 </table>
+@if (Model.TempDataMessage != null)
+{
+    <div  class="alert alert-success"> @Model.TempDataMessage ! </div>
+    
+}
+
+@foreach (var restaurant in Model.Restaurants)
+{
+    <partial name="_RestaurantPartialView" model="restaurant"/>
+}

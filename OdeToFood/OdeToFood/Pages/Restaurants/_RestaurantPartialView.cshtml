@@ -1,0 +1,19 @@
+﻿@using OdeToFood.Core
+@model Restaurant
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3>@Model.Name</h3>
+    </div>
+</div>
+<div class="panel-body">
+    <span>Localização : @Model.Location</span>
+    <span>Culinária: @Model.Cuisine</span>
+</div>
+
+<div class="panel-footer">
+    <a class="btn btn-success" asp-page="./Edit"  asp-route-restaurantId="@Model.Id"> Editar</a>
+    <a class="btn btn-info" asp-page="./Detail" asp-route-restaurantId="@Model.Id">Detalhes</a>
+    <a class="btn btn-danger" asp-page="./Delete" asp-route-restaurantId="@Model.Id"> X</a>
+</div>

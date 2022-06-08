@@ -51,7 +51,7 @@ namespace OdeToFood.Data
                         where restaurant.Name.Contains(name) || string.IsNullOrEmpty(name)
                         orderby restaurant.Id
                         select restaurant;
-            return query;
+            return query.ToList();
         }
 
         public Restaurant Update(Restaurant restaurant)
