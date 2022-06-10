@@ -27,7 +27,7 @@ using OdeToFood.Core;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6b23db3ed7c261611deb43db0158f9539b769804", @"/Pages/Restaurants/_RestaurantPartialView.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4131f99e56e7ed69e62210f35a81d8b4678309ec", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"62898865c46c67d1f7360c9ef46f7c1981895c85", @"/Pages/_ViewImports.cshtml")]
     #nullable restore
     public class Pages_Restaurants__RestaurantPartialView : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Restaurant>
     #nullable disable

@@ -1,4 +1,6 @@
 C:\Users\j.souza.da.silva\Desktop\OneDrive - Avanade\8. Projetos\Projetos_Desenvolvimento\OdeToFood\OdeToFood.Data\bin\Debug\netcoreapp3.1\OdeToFood.Data.deps.json
+C:\Users\j.souza.da.silva\Desktop\OneDrive - Avanade\8. Projetos\Projetos_Desenvolvimento\OdeToFood\OdeToFood.Data\bin\Debug\netcoreapp3.1\OdeToFood.Data.runtimeconfig.json
+C:\Users\j.souza.da.silva\Desktop\OneDrive - Avanade\8. Projetos\Projetos_Desenvolvimento\OdeToFood\OdeToFood.Data\bin\Debug\netcoreapp3.1\OdeToFood.Data.runtimeconfig.dev.json
 C:\Users\j.souza.da.silva\Desktop\OneDrive - Avanade\8. Projetos\Projetos_Desenvolvimento\OdeToFood\OdeToFood.Data\bin\Debug\netcoreapp3.1\OdeToFood.Data.dll
 C:\Users\j.souza.da.silva\Desktop\OneDrive - Avanade\8. Projetos\Projetos_Desenvolvimento\OdeToFood\OdeToFood.Data\bin\Debug\netcoreapp3.1\OdeToFood.Data.pdb
 C:\Users\j.souza.da.silva\Desktop\OneDrive - Avanade\8. Projetos\Projetos_Desenvolvimento\OdeToFood\OdeToFood.Data\bin\Debug\netcoreapp3.1\OdeToFood.Core.dll
@@ -11,6 +13,4 @@ C:\Users\j.souza.da.silva\Desktop\OneDrive - Avanade\8. Projetos\Projetos_Desenv
 C:\Users\j.souza.da.silva\Desktop\OneDrive - Avanade\8. Projetos\Projetos_Desenvolvimento\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.csproj.CopyComplete
 C:\Users\j.souza.da.silva\Desktop\OneDrive - Avanade\8. Projetos\Projetos_Desenvolvimento\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.dll
 C:\Users\j.souza.da.silva\Desktop\OneDrive - Avanade\8. Projetos\Projetos_Desenvolvimento\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.pdb
-C:\Users\j.souza.da.silva\Desktop\OneDrive - Avanade\8. Projetos\Projetos_Desenvolvimento\OdeToFood\OdeToFood.Data\bin\Debug\netcoreapp3.1\OdeToFood.Data.runtimeconfig.json
-C:\Users\j.souza.da.silva\Desktop\OneDrive - Avanade\8. Projetos\Projetos_Desenvolvimento\OdeToFood\OdeToFood.Data\bin\Debug\netcoreapp3.1\OdeToFood.Data.runtimeconfig.dev.json
 C:\Users\j.souza.da.silva\Desktop\OneDrive - Avanade\8. Projetos\Projetos_Desenvolvimento\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.genruntimeconfig.cache
