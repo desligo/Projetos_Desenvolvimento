@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "c51rtK+9TGp/0py484HcEgHKti6gPL1EHDlzKQntauuIpzv8ldw+OvzK55XoZkkSqtf6W1cax8zdFVfxWE2oMw==",
+  "dgSpecHash": "rssBFb09PwqZqq53Tu2f9IRvwbBK/BOnSzytBDz1UGl0nhRlg+eeInvlzRh4ofYdi5DzOMlUl9PLmtBV0aFQwg==",
   "success": true,
   "projectFilePath": "C:\\Users\\j.souza.da.silva\\Desktop\\OneDrive - Avanade\\8. Projetos\\Projetos_Desenvolvimento\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,7 @@
     "C:\\Users\\j.souza.da.silva\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\j.souza.da.silva\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\j.souza.da.silva\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\j.souza.da.silva\\.nuget\\packages\\odetocode.usenodemodules\\3.0.0\\odetocode.usenodemodules.3.0.0.nupkg.sha512",
     "C:\\Users\\j.souza.da.silva\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\j.souza.da.silva\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\j.souza.da.silva\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

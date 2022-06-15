@@ -77,3 +77,6 @@ C:\Users\j.souza.da.silva\Desktop\OneDrive - Avanade\8. Projetos\Projetos_Desenv
 C:\Users\j.souza.da.silva\Desktop\OneDrive - Avanade\8. Projetos\Projetos_Desenvolvimento\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\OdeToFood.dll
 C:\Users\j.souza.da.silva\Desktop\OneDrive - Avanade\8. Projetos\Projetos_Desenvolvimento\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\OdeToFood.pdb
 C:\Users\j.souza.da.silva\Desktop\OneDrive - Avanade\8. Projetos\Projetos_Desenvolvimento\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\OdeToFood.genruntimeconfig.cache
+C:\Users\j.souza.da.silva\Desktop\OneDrive - Avanade\8. Projetos\Projetos_Desenvolvimento\OdeToFood\OdeToFood\bin\Debug\netcoreapp3.1\package-lock.json
+C:\Users\j.souza.da.silva\Desktop\OneDrive - Avanade\8. Projetos\Projetos_Desenvolvimento\OdeToFood\OdeToFood\bin\Debug\netcoreapp3.1\package.json
+C:\Users\j.souza.da.silva\Desktop\OneDrive - Avanade\8. Projetos\Projetos_Desenvolvimento\OdeToFood\OdeToFood\bin\Debug\netcoreapp3.1\OdeToCode.UseNodeModules.dll
