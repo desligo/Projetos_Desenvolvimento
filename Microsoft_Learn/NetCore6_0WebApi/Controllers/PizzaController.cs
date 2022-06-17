@@ -38,7 +38,7 @@ namespace NetCore6_0WebApi.Services
             {
                 NetCore6_0WebApi.Services.PizzaService.AddPizza(pizza);
 
-                return Ok();
+                return CreatedAtAction(nameof(Create), new {id = pizza.Id}, pizza);
             }
             catch (Exception ex)
             {
@@ -46,46 +46,37 @@ namespace NetCore6_0WebApi.Services
             }
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public IActionResult Update(int id, NetCore6_0WebApi.Models.Pizza pizza)
         {
+            if(id != pizza.Id)
+                return BadRequest();
+
             var oldPizza = NetCore6_0WebApi.Services.PizzaService.GetPizza(id);
+           
             if (oldPizza is null)
             {
                 return NotFound();
             }
-            try
-            {
+          
                 NetCore6_0WebApi.Services.PizzaService.Update(pizza);
 
-            }
-            catch (System.Exception)
-            {
-
-                throw;
-            }
-            return Ok();
+            return NoContent();
         }
 
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
             var pizza = NetCore6_0WebApi.Services.PizzaService.GetPizza(id);
+            
             if (pizza is null)
             {
                 return NotFound();
             }
-            try
-            {
-                NetCore6_0WebApi.Services.PizzaService.DeletePizza(id);
-            }
-            catch (System.Exception)
-            {
-
-                throw;
-            }
-            return Ok();
+             NetCore6_0WebApi.Services.PizzaService.DeletePizza(id);
+         
+            return NoContent();
         }
 
 
